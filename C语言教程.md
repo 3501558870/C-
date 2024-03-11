@@ -748,7 +748,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    2. 标志：`printf("a = %[标志][宽度]类型", a);`
    
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\宽度标志.png)
+      ![](/图片/宽度标志.png)
    
       ```C
       #include <stdio.h>
