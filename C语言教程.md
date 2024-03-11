@@ -135,18 +135,10 @@
 * 链表
 
   * 静态链表
-
   * 动态链表
-
   * 链表优化
-
-  * 链表销毁
-
-  * 链表长度计算
-
-  * 链表查找
-
-  * 链表删除
+  * 链表销毁与长度计算
+  * 链表查找与删除
 * 计数排序
 * 选择排序
 * 冒泡排序
@@ -178,11 +170,11 @@
 
 ​                                                                                                        Clion
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vs.png)
+![](\图片\vs.png)
 
 ​                                                                                                       Visual Studio
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode.png)
+![](\图片\vscode.png)
 
 ​                                                                                                 Visual Studio Code
 
@@ -190,15 +182,15 @@
    
    官网：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/))
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode官网.png)
+   ![](\图片\vscode官网.png)
    
    选择对应的系统版本进行下载即可。下载完成以后默认设置安装即可。**切记，不要将软件安装在C盘，一定要改默认路径。**
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装01.png)
+   ![](\图片\vscode安装01.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装02.png)
+   ![](\图片\vscode安装02.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装03.png)
+   ![](\图片\vscode安装03.png)
 
 2. 下载mingw64
    
@@ -212,17 +204,17 @@
    
    【windows10以下版本系统（不含windows10）】
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境01.png)
+   ![](\图片\配置环境01.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境02.png)
+   ![](\图片\配置环境02.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境03.png)
+   ![](\图片\配置环境03.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境04.png)
+   ![](\图片\配置环境04.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境05.png)
+   ![](\图片\配置环境05.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境06.png)
+   ![](\图片\配置环境06.png)
    
       最后编辑的时候在最后面加上一个分号，然后将mingw64中的bin目录的路径（例如：F:\mingw64\bin）粘贴进去。
    
@@ -230,15 +222,15 @@
    
     右键我的电脑，点击属性
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境07.png)
+   ![](\图片\配置环境07.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境08.png)
+   ![](\图片\配置环境08.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境09.png)
+   ![](\图片\配置环境09.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境10.png)
+   ![](\图片\配置环境10.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境11.png)
+   ![](\图片\配置环境11.png)
    
    将mingw64的路径（例如：F:\mingw64\bin）粘贴进去，最后确定保存就行。
 
@@ -246,19 +238,19 @@
    
       打开vscode，Ctrl+Shift+X打开插件市场，在搜索框里输入Chinese，选择第一个安装，安装过后右下角会有重启软件提示，点击restart重启即可，重启过后界面即为中文界面。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境12.png)
+   ![](\图片\配置环境12.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境13.png)
+   ![](\图片\配置环境13.png)
    
       打开插件市场，安装C/C++插件。
    
       在C盘之外创建一个英文名的文件夹，路径之中不可含有英文，文件夹名称不可含有中文。然后在创建好的文件夹里面再创建一个.vscode文件夹（注意不要把点忘记了）。然后打开vscode，点击左上角的文件，打开文件夹，打开事先创建好的文件夹。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境14.png)
+   ![](\图片\配置环境14.png)
    
    点击展开.vscode文件夹，点击上方的加号创建c_cppproperties.json、launch.json、settings.json、tasks.json四个文件。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境15.png)
+   ![](\图片\配置环境15.png)
 
 5. 配置文件（C）
    
@@ -475,17 +467,17 @@
 
 ## 如何运行代码
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\运行代码01.png)
+![](\图片\运行代码01.png)
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\运行代码02.png)
+![](\图片\运行代码02.png)
 
 ## 断点调试
 
 有些时候，我们写的代码出现了问题，我们可能就会用到断点调试。断点调试可以监视变量的值以及数组中的值的变化。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\断点调试01.png)
+![](\图片\断点调试01.png)
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\断点调试02.png)
+![](\图片\断点调试02.png)
 
 # C语言程序构成
 
@@ -497,7 +489,7 @@ C语言文件的后缀名为.c
 
 注：C语言的文件路径、文件名中不可含有中文，否则会编译错误。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\1-1 C语言结构02.png)
+![](\图片\1-1 C语言结构02.png)
 
 **注**：其中system（“pause”）可以省略，这段指令包含在库文件stdlib.h中，但是上面的vscode配置为外置终端显示运行结果，如果不添加这两行代码，就会出现运行结果一闪而过的情况，这两段代码的作用就是暂停程序的执行，使得你能够看到运行结果。
 
@@ -581,11 +573,11 @@ C语言文件的后缀名为.c
 
 4. C语言中的32个关键字
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\关键字.png)
+   ![](\图片\关键字.png)
 
 5. 关键字的分类
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\关键字分类.png)
+   ![](\图片\关键字分类.png)
 
 # 标识符
 
@@ -611,7 +603,7 @@ C语言文件的后缀名为.c
 
 C语言4大数据类型：基本类型、构造类型、指针类型、空类型。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\C语言数据类型.png)
+![](\图片\C语言数据类型.png)
 
 ```c
 1 B(Byte字节) = 8 bit(位)
@@ -684,7 +676,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    printf("a = %类型", a);
    ```
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\类型字符串.png)
+   ![](\图片\类型字符串.png)
 
 4. 示例
    
@@ -756,7 +748,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    2. 标志：`printf("a = %[标志][宽度]类型", a);`
    
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\宽度标志.png)
+      ![](\图片\宽度标志.png)
    
       ```C
       #include <stdio.h>
@@ -862,7 +854,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    1. 格式：`printf("a = %[长度]类型", a);`
       
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\长度.png)
+      ![](\图片\长度.png)
    
    2. 示例
       
@@ -10020,19 +10012,488 @@ int main()
       }
       ```
 
-      
+      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\动态链表头插法01.png)
+
+   3. 解释
+
+      ​	动态链表头插法就是说在头节点之前插入节点。
+
+      ​	创建头节点，然后获取用户输入的节点数据，然后判断用户输入的数据，如果不为 -1 ，然后头节点指向下一节点，继续获取数据，直到用户输入 -1 结束运行。
 
 4. 动态链表尾插法
 
+   1. 步骤
+
+      1. 定义变量记录新节点的上一个节点
+      2. 将新节点添加到上一个节点后面
+      3. 让新节点成为下一个节点的上一个节点
+
+   2. 示例
+
+      ```c
+      #include <stdio.h>
+      #include <stdlib.h>
+      
+      // 1.定义链表节点
+      typedef struct node
+      {
+          int data;
+          struct node *next;
+      }Node;
+      
+      Node *createList();
+      void printNodeList(Node *node);
+      
+      int main()
+      {
+          Node *head = createList();
+          printNodeList(head);
+          
+          return 0;
+      }
+      
+      /**
+       * @brief createList 创建链表
+       * @return  创建好的链表
+       */
+      Node *createList()
+      {
+          // 1.创建头节点
+          Node *head = (Node *)malloc(sizeof(Node));
+          if(head == NULL)
+          {
+              return NULL;
+          }
+          head->next = NULL;
+      
+          // 2.接收用户输入数据
+          int num = -1;
+          printf("请输入节点数据\n");
+          scanf("%i", &num);
+      
+          // 3.通过循环创建其它节点
+          // 定义变量记录上一个节点
+          Node *pre = head;
+          while(num != -1)
+          {
+              // 3.1创建一个新的节点
+              Node *cur = (Node *)malloc(sizeof(Node));
+              cur->data = num;
+      
+              // 3.2让新节点链接到上一个节点后面
+              pre->next = cur;
+              // 3.3当前节点下一个节点等于NULL
+              cur->next = NULL;
+              // 3.4让当前节点编程下一个节点的上一个节点
+              pre = cur;
+      
+              // 3.5再次接收用户输入数据
+              scanf("%i", &num);
+          }
+      
+          // 3.返回创建好的节点
+          return head;
+      }
+      
+      /**
+       * @brief printNodeList 遍历链表
+       * @param node 链表指针头
+       */
+      void printNodeList(Node *node)
+      {
+          Node *head = node->next;
+          while(head != NULL)
+          {
+              int currentData = head->data;
+              printf("currentData = %i\n", currentData);
+              head = head->next;
+          }
+      }
+      ```
+
+      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\动态链表尾插法01.png)
+
+   3. 解释
+
+      ​	动态链表尾插法就是在头节点的后面插入数据，也就是说在链表的尾部后面插入节点。
+
+      ​	
+
 ## 链表优化
 
-## 链表销毁
+1. 示例
 
-## 链表长度计算
+   ```c
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   // 1.定义链表节点
+   typedef struct node
+   {
+       int data;
+       struct node *next;
+   }Node;
+   
+   Node *createList();
+   void printNodeList(Node *node);
+   void insertNode1(Node *head, int data);
+   void insertNode2(Node *head, int data);
+   
+   int main()
+   {
+       // 1.创建一个空链表
+       Node *head = createList();
+       // 2.往空链表中插入数据
+       insertNode1(head, 1);
+       insertNode1(head, 3);
+       insertNode1(head, 5);
+       printNodeList(head);
+       
+       return 0;
+   }
+   
+   /**
+    * @brief createList 创建空链表
+    * @return  创建好的空链表
+    */
+   Node *createList()
+   {
+       // 1.创建头节点
+       Node *head = (Node *)malloc(sizeof(Node));
+       if(head == NULL)
+       {
+           return NULL;
+       }
+       head->next = NULL;
+       // 3.返回创建好的节点
+       return head;
+   }
+   
+   /**
+    * @brief insertNode1 尾插法插入节点
+    * @param head 需要插入的头指针
+    * @param data 需要插入的数据
+    * @return  插入之后的链表
+    */
+   void insertNode1(Node *head, int data)
+   {
+       // 1.定义变量记录最后一个节点
+       Node *pre = head;
+       while(pre != NULL && pre->next != NULL)
+       {
+           pre = pre->next;
+       }
+       // 2.创建一个新的节点
+       Node *cur = (Node *)malloc(sizeof(Node));
+       cur->data = data;
+   
+       // 3.让新节点链接到上一个节点后面
+       pre->next = cur;
+       // 4.当前节点下一个节点等于NULL
+       cur->next = NULL;
+       // 5.让当前节点编程下一个节点的上一个节点
+       pre = cur;
+   }
+   
+   /**
+    * @brief insertNode1 头插法插入节点
+    * @param head 需要插入的头指针
+    * @param data 需要插入的数据
+    * @return  插入之后的链表
+    */
+   void insertNode2(Node *head, int data)
+   {
+       // 1.创建一个新的节点
+       Node *cur = (Node *)malloc(sizeof(Node));
+       cur->data = data;
+   
+       // 2.让新节点的下一个节点指向头节点的下一个节点
+       cur->next = head->next;
+       // 3.让头节点的下一个节点指向新节点
+       head->next = cur;
+   }
+   
+   /**
+    * @brief printNodeList 遍历链表
+    * @param node 链表指针头
+    */
+   void printNodeList(Node *node)
+   {
+       Node *head = node->next;
+       while(head != NULL)
+       {
+           int currentData = head->data;
+           printf("currentData = %i\n", currentData);
+           head = head->next;
+       }
+   }
+   ```
 
-## 链表查找
+   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\链表优化.png)
 
-## 链表删除
+2. 解释
+
+   
+
+## 链表销毁与长度计算
+
+1. 链表销毁
+
+   ```c
+   /**
+    * @brief destroyList 销毁链表
+    * @param head 链表头指针
+    */
+   void destroyList(Node *head)
+   {
+       Node *cur = NULL;
+       while(head != NULL)
+       {
+           cur = head->next;
+           free(head);
+           head = cur;
+       }
+   }
+   ```
+
+2. 长度计算
+
+   ```c
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   // 1.定义链表节点
+   typedef struct node
+   {
+       int data;
+       struct node *next;
+   }Node;
+   
+   Node *createList();
+   void printNodeList(Node *node);
+   int listLength(Node *head);
+   
+   int main()
+   {
+       Node *head = createList();
+       printNodeList(head);
+       printf("%d\n",listLength(head));
+       
+       system("pause");
+       return 0;
+   }
+   
+   /**
+   * @brief createList 创建链表
+   * @return 创建好的链表
+   */
+   Node *createList()
+   {
+       // 1.创建头节点
+       Node *head = (Node *)malloc(sizeof(Node));
+       if(head == NULL)
+       {
+           return NULL;
+       }
+       head->next = NULL;
+       // 2.接收用户输入数据
+       int num = -1;
+       printf("请输入节点数据\n");
+       scanf("%i", &num);
+       // 3.通过循环创建其它节点
+       // 定义变量记录上一个节点
+       Node *pre = head;
+       while(num != -1)
+       {
+           // 3.1创建一个新的节点
+           Node *cur = (Node *)malloc(sizeof(Node));
+           cur->data = num;
+           // 3.2让新节点链接到上一个节点后面
+           pre->next = cur;
+           // 3.3当前节点下一个节点等于NULL
+           cur->next = NULL;
+           // 3.4让当前节点编程下一个节点的上一个节点
+           pre = cur;
+           // 3.5再次接收用户输入数据
+           scanf("%i", &num);
+       }
+       // 3.返回创建好的节点
+       return head;
+   }
+   
+   /**
+   * @brief printNodeList 遍历链表
+   * @param node 链表指针头
+   */
+   void printNodeList(Node *node)
+   {
+       Node *head = node->next;
+       while(head != NULL)
+       {
+           int currentData = head->data;
+           printf("currentData = %i\n", currentData);
+           head = head->next;
+       }
+   }
+   
+   /**
+    * @brief listLength 计算链表长度
+    * @param head 链表头指针
+    * @return 链表长度
+    */
+   int listLength(Node *head)
+   {
+       int count = 0;
+       head = head->next;
+       while(head){
+          count++;
+          head = head->next;
+       }
+       return count;
+   }
+   ```
+
+   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\链表长度计算01.png)
+
+## 链表查找与删除
+
+1. 链表查找
+
+   ```c
+   /**
+    * @brief searchList 查找指定节点
+    * @param head 链表头指针
+    * @param key 需要查找的值
+    * @return
+    */
+   Node *searchList(Node *head, int key)
+   {
+       head = head->next;
+       while(head)
+       {
+           if(head->data == key)
+           {
+               break;
+           }
+           else
+           {
+               head = head->next;
+           }
+       }
+       return head;
+   }
+   ```
+
+2. 链表删除
+
+   ```c
+   void deleteNodeList(Node *head, Node *find)
+   {
+       while(head->next != find)
+       {
+           head = head->next;
+       }
+       head->next = find->next;
+       free(find);
+   }
+   ```
+
+3. 练习
+
+   1. 给链表排序
+
+      ```c
+      /**
+       * @brief bubbleSort 对链表进行排序
+       * @param head 链表头指针
+       */
+      void bubbleSort(Node *head)
+      {
+          // 1.计算链表长度
+          int len = listLength(head);
+          // 2.定义变量记录前后节点
+          Node *cur = NULL;
+         	// 3.相邻元素进行比较, 进行冒泡排序
+          for(int i = 0; i < len - 1; i++)
+          {
+              cur = head->next;
+              for(int j = 0; j < len - 1 - i; j++)
+              {
+                  printf("%i, %i\n", cur->data, cur->next->data);
+                  if((cur->data) > (cur->next->data))
+                  {
+                      int temp = cur->data;
+                      cur->data = cur->next->data;
+                      cur->next->data = temp;
+                  }
+                  cur = cur->next;
+              }
+          }
+      }
+      ```
+
+      ```c
+      /**
+       * @brief sortList 对链表进行排序
+       * @param head 链表头指针
+       */
+      void sortList(Node *head)
+      {
+          // 0.计算链表长度
+          int len = listLength(head);
+          // 1.定义变量保存前后两个节点
+          Node *sh, *pre, *cur;
+          for(int i = 0; i < len - 1; i ++)
+          {
+              sh = head; // 头节点
+              pre = sh->next; // 第一个节点
+              cur = pre->next; // 第二个节点
+              for(int j = 0; j < len - 1 - i; j++)
+              {
+                  if(pre->data > cur->data)
+                  {
+                      // 交换节点位置
+                      sh->next = cur;
+                      pre->next = cur->next;
+                      cur->next = pre;
+                      // 恢复节点名称
+                      Node *temp = pre;
+                      pre = cur;
+                      cur = temp;
+                  }
+                  // 让所有节点往后移动
+                  sh = sh->next;
+                  pre = pre->next;
+                  cur = cur->next;
+              }
+          }
+      }
+      ```
+
+   2. 链表反转
+
+      ```c
+      /**
+       * @brief reverseList 反转链表
+       * @param head 链表头指针
+       */
+      void reverseList(Node *head)
+      {
+          // 1.将链表一分为二
+          Node *pre, *cur;
+          pre = head->next;
+          head->next = NULL;
+          // 2.重新插入节点
+          while(pre)
+          {
+              cur = pre->next;
+              pre->next = head->next;
+              head->next = pre;
+      
+              pre = cur;
+          }
+      }
+      ```
 
 # 计数排序
 
