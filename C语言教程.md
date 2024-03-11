@@ -170,18 +170,27 @@
 
 ​                                                                                                        Clion
 
+<<<<<<< HEAD
 ![](\图片\vs.png)
 
 ​                                                                                                       Visual Studio
 
 ![](\图片\vscode.png)
+=======
+![](/图片/vs.png)
 
-​                                                                                                 Visual Studio Code
+​                                                                                                       Visual Studio
+
+![](/图片/vscode.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
+
+​Visual Studio Code
 
 1. 安装vscode
    
    官网：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/))
    
+<<<<<<< HEAD
    ![](\图片\vscode官网.png)
    
    选择对应的系统版本进行下载即可。下载完成以后默认设置安装即可。**切记，不要将软件安装在C盘，一定要改默认路径。**
@@ -191,6 +200,17 @@
    ![](\图片\vscode安装02.png)
    
    ![](\图片\vscode安装03.png)
+=======
+   ![](/图片/vscode官网.png)
+   
+   选择对应的系统版本进行下载即可。下载完成以后默认设置安装即可。**切记，不要将软件安装在C盘，一定要改默认路径。**
+   
+   ![](/图片/vscode安装01.png)
+   
+   ![](/图片/vscode安装02.png)
+   
+   ![](/图片/vscode安装03.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 2. 下载mingw64
    
@@ -204,6 +224,7 @@
    
    【windows10以下版本系统（不含windows10）】
    
+<<<<<<< HEAD
    ![](\图片\配置环境01.png)
    
    ![](\图片\配置环境02.png)
@@ -215,6 +236,19 @@
    ![](\图片\配置环境05.png)
    
    ![](\图片\配置环境06.png)
+=======
+   ![](/图片/配置环境01.png)
+   
+   ![](/图片/配置环境02.png)
+   
+   ![](/图片/配置环境03.png)
+   
+   ![](/图片/配置环境04.png)
+   
+   ![](/图片/配置环境05.png)
+   
+   ![](/图片/配置环境06.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
    
       最后编辑的时候在最后面加上一个分号，然后将mingw64中的bin目录的路径（例如：F:\mingw64\bin）粘贴进去。
    
@@ -222,6 +256,7 @@
    
     右键我的电脑，点击属性
    
+<<<<<<< HEAD
    ![](\图片\配置环境07.png)
    
    ![](\图片\配置环境08.png)
@@ -231,6 +266,17 @@
    ![](\图片\配置环境10.png)
    
    ![](\图片\配置环境11.png)
+=======
+   ![](/图片/配置环境07.png)
+   
+   ![](/图片/配置环境08.png)
+   
+   ![](/图片/配置环境09.png)
+   
+   ![](/图片/配置环境10.png)
+   
+   ![](/图片/配置环境11.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
    
    将mingw64的路径（例如：F:\mingw64\bin）粘贴进去，最后确定保存就行。
 
@@ -238,19 +284,33 @@
    
       打开vscode，Ctrl+Shift+X打开插件市场，在搜索框里输入Chinese，选择第一个安装，安装过后右下角会有重启软件提示，点击restart重启即可，重启过后界面即为中文界面。
    
+<<<<<<< HEAD
    ![](\图片\配置环境12.png)
    
    ![](\图片\配置环境13.png)
+=======
+   ![](/图片/配置环境12.png)
+   
+   ![](/图片/配置环境13.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
    
       打开插件市场，安装C/C++插件。
    
       在C盘之外创建一个英文名的文件夹，路径之中不可含有英文，文件夹名称不可含有中文。然后在创建好的文件夹里面再创建一个.vscode文件夹（注意不要把点忘记了）。然后打开vscode，点击左上角的文件，打开文件夹，打开事先创建好的文件夹。
    
+<<<<<<< HEAD
    ![](\图片\配置环境14.png)
    
    点击展开.vscode文件夹，点击上方的加号创建c_cppproperties.json、launch.json、settings.json、tasks.json四个文件。
    
    ![](\图片\配置环境15.png)
+=======
+   ![](/图片/配置环境14.png)
+   
+   点击展开.vscode文件夹，点击上方的加号创建c_cppproperties.json、launch.json、settings.json、tasks.json四个文件。
+   
+   ![](/图片/配置环境15.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 5. 配置文件（C）
    
@@ -467,17 +527,29 @@
 
 ## 如何运行代码
 
+<<<<<<< HEAD
 ![](\图片\运行代码01.png)
 
 ![](\图片\运行代码02.png)
+=======
+![](/图片/运行代码01.png)
+
+![](/图片/运行代码02.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 ## 断点调试
 
 有些时候，我们写的代码出现了问题，我们可能就会用到断点调试。断点调试可以监视变量的值以及数组中的值的变化。
 
+<<<<<<< HEAD
 ![](\图片\断点调试01.png)
 
 ![](\图片\断点调试02.png)
+=======
+![](/图片/断点调试01.png)
+
+![](/图片/断点调试02.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 # C语言程序构成
 
@@ -489,7 +561,11 @@ C语言文件的后缀名为.c
 
 注：C语言的文件路径、文件名中不可含有中文，否则会编译错误。
 
+<<<<<<< HEAD
 ![](\图片\1-1 C语言结构02.png)
+=======
+![](/图片/1-1C语言结构02.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 **注**：其中system（“pause”）可以省略，这段指令包含在库文件stdlib.h中，但是上面的vscode配置为外置终端显示运行结果，如果不添加这两行代码，就会出现运行结果一闪而过的情况，这两段代码的作用就是暂停程序的执行，使得你能够看到运行结果。
 
@@ -573,11 +649,19 @@ C语言文件的后缀名为.c
 
 4. C语言中的32个关键字
    
+<<<<<<< HEAD
    ![](\图片\关键字.png)
 
 5. 关键字的分类
    
    ![](\图片\关键字分类.png)
+=======
+   ![](/图片/关键字.png)
+
+5. 关键字的分类
+   
+   ![](/图片/关键字分类.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 # 标识符
 
@@ -603,7 +687,11 @@ C语言文件的后缀名为.c
 
 C语言4大数据类型：基本类型、构造类型、指针类型、空类型。
 
+<<<<<<< HEAD
 ![](\图片\C语言数据类型.png)
+=======
+![](/图片/C语言数据类型.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 ```c
 1 B(Byte字节) = 8 bit(位)
@@ -676,7 +764,11 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    printf("a = %类型", a);
    ```
    
+<<<<<<< HEAD
    ![](\图片\类型字符串.png)
+=======
+   ![](/图片/类型字符串.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
 
 4. 示例
    
@@ -748,7 +840,11 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    2. 标志：`printf("a = %[标志][宽度]类型", a);`
    
+<<<<<<< HEAD
       ![](\图片\宽度标志.png)
+=======
+      ![](/图片/宽度标志.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
    
       ```C
       #include <stdio.h>
@@ -854,7 +950,11 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    1. 格式：`printf("a = %[长度]类型", a);`
       
+<<<<<<< HEAD
       ![](\图片\长度.png)
+=======
+      ![](/图片/长度.png)
+>>>>>>> c2b45a94d07cf36efd9aff33a7f07173aaf5c956
    
    2. 示例
       
@@ -1114,7 +1214,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    1. 变量存储占用空间
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\变量内存分析.png)
+   ![](/图片/变量内存分析.png)
    
    2. 变量存储过程
       
@@ -1139,9 +1239,9 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\变量内存分析_地址01.png)
+      ![](/图片/变量内存分析_地址01.png)
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\变量内存分析_地址02.png) 
+      ![](/图片/变量内存分析_地址02.png) 
       
       **注：每次运行代码，变量的内存地址都是随机分配的，所以每次运行的结果都不一样。**
 
@@ -1151,9 +1251,9 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 **注：声明的结尾处必须加分号“;”。**
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\extern声明01.png)
+![](/图片/extern声明01.png)
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\extern声明02.png)
+![](/图片/extern声明02.png)
 
 注：extern对局部变量没用。extern代表声明一个变量, 而不是定义一个变量, 变量只有定义才会开辟存储空间。所以如果是局部变量, 虽然提前声明有某个局部变量, 但是局部变量只有执行到才会分配存储空间。 
 
@@ -1213,15 +1313,15 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 2. 对全局变量：全局变量具有外部链接属性，在一个项目当中，其他源文件中的全局变量是可以在当前源文件中引用，只需声明一下即可。static关键字可以使全局变量的外部连接属性变为内部链接属性。
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字01.png)
+   ![](/图片/static关键字01.png)
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字02.png)
+   ![](/图片/static关键字02.png)
 
 3. 对函数：函数具有外部链接属性，在一个项目当中，其他源文件中的函数是可以在当前源文件中引用，只需声明一下即可。static关键字可以使函数的外部连接属性变为内部链接属性。
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字03.png)
+   ![](/图片/static关键字03.png)
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字04.png)
+   ![](/图片/static关键字04.png)
 
 ## auto和register关键字
 
@@ -1362,7 +1462,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\scanf函数01.png)
+   ![](/图片/scanf函数01.png)
 
 5. scanf函数运行原理
 
@@ -1374,7 +1474,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
    对于输入的%d、%f、%lf类型的数据，scanf函数会自动过滤掉数据前面的空格。
 
-   <img title="" src="file:///D:/Programmering%20Learning/Markdown文档/C语言教程/图片\scanf函数原理.png" alt="" data-align="center">
+   ![](/图片/scanf函数原理.png)
 
 6. 清空缓冲区
 
@@ -1429,12 +1529,12 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 2. 运算符的优先级和结合性
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\位运算符的优先级和结合性01.png)
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\位运算符的优先级和结合性02.png)
+   ![](/图片/位运算符的优先级和结合性01.png)
+   ![](/图片/位运算符的优先级和结合性02.png)
 
 ## 算术运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\算术运算符.png)
+![](/图片/算术运算符.png)
 
 1. 如果参与运算的两个操作数皆为整数, 那么结果也为整数；如果参与运算的两个操作数其中一个是浮点数, 那么结果一定是浮点数。
    求余运算符, 本质上就是数学的商和余"中的余数；参与运算的两个操作数必须都是整数, 不能包含浮点数；被除数小于除数, 那么结果就是被除数；运算结果的正负性取决于被除数,跟除数无关, 被除数是正数结果就是正数,被除数是负数结果就是负数； 被除数为0, 结果为0。
@@ -1512,7 +1612,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 ## 赋值运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\赋值运算符.png)
+![](/图片/赋值运算符.png)
 
 1. 简单赋值运算符
    
@@ -1583,7 +1683,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 ## 自增自减运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\自增自减运算符.png)
+![](/图片/自增自减运算符.png)
 
 1. 自增
    
@@ -1954,7 +2054,7 @@ int main()
 
 ## 逻辑运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\逻辑运算符.png)
+![](/图片/逻辑运算符.png)
 
 1. 逻辑非
    
@@ -2192,7 +2292,7 @@ int main()
       
       3. char 和 short 参与运算时，必须先转换成 int 类型。
          
-         ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数据类型转换.png)
+         ![](/图片/数据类型转换.png)
          
          注：unsigned 也即 unsigned int，此时可以省略 int，只写 unsigned。
    
@@ -2592,7 +2692,7 @@ int main()
             }
             ```
    
-            ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\rand().png)
+            ![](/图片/rand().png)
    
       2. 随机数的本质
    
@@ -2600,7 +2700,7 @@ int main()
    
          实际上，`rand()`函数产生的随机数是伪随机数，是根据一个数值按照某个公式推算出来的，这个数值我们称之为“种子”。种子和随机数之间的关系是一种正态分布，如下图所示：
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\随机数的本质.gif)
+         ![](/动画/随机数的本质.gif)
    
          种子在每次启动计算机时是随机的，但是一旦计算机启动以后它就不再变化了；也就是说，每次启动计算机以后，种子就是定值了，所以根据公式推算出来的结果（也就是生成的随机数）就是固定的。
    
@@ -2698,7 +2798,7 @@ int main()
          }
          ```
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数01.png)
+         ![](/图片/连续生成随机数01.png)
    
          ​	运行结果非常奇怪，每次循环我们都重新播种了呀，为什么生成的随机数都一样呢？
    
@@ -2727,7 +2827,7 @@ int main()
          }
          ```
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数02.png)
+         ![](/图片/连续生成随机数02.png)
          
          ```c
          #include <stdio.h>
@@ -2749,7 +2849,7 @@ int main()
          }
          ```
          
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数03.png)
+         ![](/图片/连续生成随机数03.png)
    
 2. 选择结构switch
    
@@ -3351,9 +3451,9 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\continue跳转.png)
+      ![](/图片/continue跳转.png)
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\continue跳转运行结果.png)
+      ![](/图片/continue跳转运行结果.png)
    
    2. 注意点
       
@@ -3376,7 +3476,7 @@ int main()
       
       `goto code;`表示跳转到标志`code:`处。
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\goto跳转.png)
+      ![](/图片/goto跳转.png)
       
       ```c
       #include <stdio.h>
@@ -3503,7 +3603,7 @@ int main()
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印01.png)
+   ![](/图片/图形打印01.png)
 
 2. 打印三角形
    
@@ -3528,7 +3628,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印02.png)
+      ![](/图片/图形打印02.png)
    
    2. 尖尖朝下，改变内循环的初始化表达式，让内循环的初始化表达式随着外循环的i值变化
       
@@ -3550,7 +3650,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印03.png)
+      ![](/图片/图形打印03.png)
    
    3. 等腰三角形
       
@@ -3584,7 +3684,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印04.png)
+      ![](/图片/图形打印04.png)
 
 3. 打印特殊三角形
    
@@ -3608,7 +3708,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印05.png)
+      ![](/图片/图形打印05.png)
    
    2. 1 22 333
       
@@ -3630,7 +3730,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印06.png)
+      ![](/图片/图形打印06.png)
    
    3. --*-********
       
@@ -3656,7 +3756,7 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印07.png)
+      ![](/图片/图形打印07.png)
 
 4. 打印九九乘法表
    
@@ -3678,7 +3778,7 @@ int main()
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\图形打印08.png)
+   ![](/图片/图形打印08.png)
 
 # 函数
 
@@ -4079,11 +4179,11 @@ int main()
    
    没有传入参数（只含有默认值）
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\argc、argv[%20]01.png)
+   ![](/图片/argc、argv[%20]01.png)
    
    传入参数（默认值+传入参数）
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\argc、argv[%20]02.png) 
+   ![](/图片/argc、argv[%20]02.png) 
 
 4. 使用场景
    
@@ -4127,7 +4227,7 @@ int main()
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\递归函数01.png)
+   ![](/图片/递归函数01.png)
    
    ```c
    #include <stdio.h>
@@ -4156,7 +4256,7 @@ int main()
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\递归函数02.png)
+   ![](/图片/递归函数02.png)
 
 4. 递归和循环的区别
    
@@ -4261,7 +4361,7 @@ int main()
 
 * C语言提供了6个位操作运算符, 这些运算符只能用于整型操作数  
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\位运算符01.png)
+![](/图片/位运算符01.png)
 
 1. 按位与
    
@@ -4271,7 +4371,7 @@ int main()
    
    3. 解释
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\drawio\按位与.drawio.png)
+      ![](/图片/drawio/按位与.drawio.png)
 
 2. 按位或
    
@@ -4279,7 +4379,7 @@ int main()
    
    2. 解释
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\drawio\按位或.drawio.png)
+      ![](/图片/drawio/按位或.drawio.png)
 
 3. 按位异或
    
@@ -4295,7 +4395,7 @@ int main()
    
    3. 解释
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\drawio\按位异或.drawio.png)
+      ![](/图片/drawio/按位异或.drawio.png)
 
 4. 按位取反
    
@@ -4488,7 +4588,7 @@ int main()
    
    4. 超出范围的转义字符的行为是未定义的，有的编译器会将编码值直接输出，有的编译器会报错。
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\转义字符.png)
+![](/图片/转义字符.png)
 
 ```c
 printf("Hello,\\\n");//Hello,\
@@ -4580,9 +4680,9 @@ C语言提供了说明长度和说明符号位的两种类型说明符, 这两�
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\short、long02.png)
+   ![](/图片/short、long02.png)
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\short、long01.png)
+   ![](/图片/short、long01.png)
 
 ## signed和unsigned
 
@@ -4648,7 +4748,7 @@ C语言提供了说明长度和说明符号位的两种类型说明符, 这两�
    }
    ```
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\signed、unsigned01.png)
+   ![](/图片/signed、unsigned01.png)
 
 6. 注意
    
@@ -4823,7 +4923,7 @@ int main()
 }
 ```
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\遍历数组.png)
+![](/图片/遍历数组.png)
 
 ## 数组长度的计算
 
@@ -4891,11 +4991,11 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数组存储细节01.png)
+      ![](/图片/数组存储细节01.png)
       
       注：地址是随机分配的，所以每次运行结果均不同。
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数组存储细节02.png)
+      ![](/图片/数组存储细节02.png)
       
       注：字符在内存中是以对应ASCII码值的二进制形式存储的,而非上述的形式。
 
@@ -4940,9 +5040,9 @@ int main()
       }
       ```
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数组越界01.png)
+      ![](/图片/数组越界01.png)
       
-      ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数组越界02.png)
+      ![](/图片/数组越界02.png)
 
 3. 数组注意事项
    
@@ -5134,7 +5234,7 @@ int main()
    int a[2][3]= {{80,75,92}, {61,65,71}};
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\二维数组01.png)
+   ![](/图片/二维数组01.png)
 
 3. 二维数组的定义
 
@@ -5251,7 +5351,7 @@ int main()
 }
 ```
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\二维数组的遍历.png)
+![](/图片/二维数组的遍历.png)
 
 ## 二维数组的存储
 
@@ -5274,9 +5374,9 @@ int main()
 }
 ```
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\二维数组存储01.png)
+![](/图片/二维数组存储01.png)
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\二维数组存储02.png)
+![](/图片/二维数组存储02.png)
 
 ## 二维数组与函数
 
@@ -5604,7 +5704,7 @@ int main()
 
 4. bug解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\迷宫小游戏bug.png)
+   ![](/图片/迷宫小游戏bug.png)
 
    ​       在前面讲scanf原理的时候说过，scanf在运行的时候会将输入的数据现存入缓冲区，这里输入了s然后回车，s被使用之后，还有一个回车被使用，就出现了这部分bug，解决此问题的方法就是清空缓冲区。但是，慎用清空缓冲区，因为可能会造成卡顿。
 
@@ -5635,7 +5735,7 @@ int main()
    //当字符数组长度大于实际存储字符数量时，未被初始化的部分默认是0
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\初始化字符串01.png)
+   ![](/图片/初始化字符串01.png)
 
 4. 输出与输出
 
@@ -5669,7 +5769,7 @@ int main()
 
       2. 一个字符数组只能存储其对应的数组长度 - 1个字符组成的字符串，比如说数组长度为10的字符数组，其能存储的字符串的字符数最大为9，如果存储10位字符组成的字符串就会出现错误（因为结束标志的位置被占用，没有结束标志）。
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\字符串输出.png)
+         ![](/图片/字符串输出.png)
 
       3. 当用scanf函数输入字符串时,字符串中不能含有空格,否则将以空格作为串的结束符。
 
@@ -5704,7 +5804,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\puts.png)
+         ![](/图片/puts.png)
 
    2. 字符串输入函数
 
@@ -5729,7 +5829,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\gets01.png)
+         ![](/图片/gets01.png)
 
       4. 注意
 
@@ -5737,7 +5837,7 @@ int main()
 
          2. gets函数是不安全，其很容易造成数组下标越界，因此不是很推荐使用。
 
-            ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\gets02.png)
+            ![](/图片/gets02.png)
 
    3. 字符串长度
 
@@ -5802,7 +5902,7 @@ int main()
             }
             ```
 
-            ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\strlen.png)
+            ![](/图片/strlen.png)
 
    4. 字符串连接函数
 
@@ -5832,7 +5932,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\strcat.png)
+         ![](/图片/strcat.png)
 
       5. 注意
 
@@ -5856,7 +5956,7 @@ int main()
          puts(str1);
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\strcat注意.png)
+         ![](/图片/strcat注意.png)
 
    5. 字符串拷贝函数
 
@@ -6145,7 +6245,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量占用内存.png)
+   ![](/图片/指针变量占用内存.png)
 
 8. 练习
 
@@ -6240,7 +6340,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量的运算01.png)
+   ![](/图片/指针变量的运算01.png)
 
 3. 解释
 
@@ -6252,7 +6352,7 @@ int main()
 
    ​	以 a 和 pa 为例，a 的类型为 int，占用 4 个字节，pa 是指向 a 的指针，如下图所示：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量的运算02.jpg)
+   ![](/图片/指针变量的运算02.jpg)
 
    ​	刚开始的时候，pa 指向 a 的开头，通过 *pa 读取数据时，从 pa 指向的位置向后移动 4 个字节，把这 4 个字节的内容作为要获
 
@@ -6260,7 +6360,7 @@ int main()
 
    ​	如果`pa++;`使得地址加 1 的话，就会变成如下图所示的指向关系：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量的运算03.jpg)
+   ![](/图片/指针变量的运算03.jpg)
 
    ​	这个时候 pa 指向整数 a 的中间，*pa 使用的是红色虚线画出的 4 个字节，其中前 3 个是变量 a 的，后面 1 个是其它数据的，把
 
@@ -6268,7 +6368,7 @@ int main()
 
    ​	如果`pa++;`使得地址加 4 的话，正好能够完全跳过整数 a，指向它后面的内存，如下图所示：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量的运算04.jpg)
+   ![](/图片/指针变量的运算04.jpg)
 
 4. 注意
 
@@ -6296,7 +6396,7 @@ int main()
       ```
       
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量的运算05.png)
+   ![](/图片/指针变量的运算05.png)
    
    可以发现，变量 a、b、c 并不挨着，它们中间还参杂了别的辅助数据。
    
@@ -6557,7 +6657,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量作为函数的形参01.png)
+   ![](/图片/指针变量作为函数的形参01.png)
 
    ​	从结果可以看出，a、b 的值并没有发生改变，交换失败。这是因为`swap()`函数内部的 a、b 和`main()`函数内部的 a、b 是不同
 
@@ -6585,7 +6685,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量作为函数的形参02.png)
+   ![](/图片/指针变量作为函数的形参02.png)
 
    ​	调用`swap()`函数时，将变量 a、b 的地址分别赋值给 p1、p2，这样 *p1、*p2 代表的就是变量 a、b 本身，交换 *p1、*p2 的值也就
 
@@ -6625,7 +6725,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量作为函数的形参03.png)
+   ![](/图片/指针变量作为函数的形参03.png)
 
    ​	参数 intArr 仅仅是一个数组指针，在函数内部无法通过这个指针获得数组长度，必须将数组长度作为函数参数传递到函数内部。
 
@@ -6831,7 +6931,7 @@ int main()
 
       ​	但是在如今的编译器中，编译器会直接报错，报错如下：
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针变量作为函数返回值注意01.png)
+      ![](/图片/指针变量作为函数返回值注意01.png)
 
       ​	可以看到，程序直接报错了，与前面的代码相比，该段代码仅仅是在 *p 之前增加了一个函数调用，这一细节的不同却导致
 
@@ -6882,13 +6982,13 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\三级指针01.png)
+   ![](/图片/三级指针01.png)
 
    ​	以三级指针`***p3`为例分析上面的代码，`***p3`等价于`*(*(*p3))`。`*p3`得到的是`p2`的值，也就是`p1`的地址；`*(*p3)`得到的是`p1`的值，也就是`a`的地址；`*(*(*p3))`得到的是a的值。
 
    ​	假设 a、p1、p2、p3 的地址分别是 0X00A0、0X1000、0X2000、0X3000，它们之间的关系可以用下图来描述：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\三级指针02.jpg)
+   ![](/图片/三级指针02.jpg)
 
    ​	方框里面是变量本身的值，方框下面是变量的地址。
 
@@ -6934,7 +7034,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针数组01.png)
+      ![](/图片/指针数组01.png)
 
       ​	`parr`是指向数组`arr`的指针，确切地说是指向`arr`第 0 个元素的指针，它的定义形式应该理解为`int *(*parr)`，括号中的
 
@@ -6969,7 +7069,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针数组02.png)
+      ![](/图片/指针数组02.png)
 
       ​	需要注意的是，**字符数组`str`中存放的是字符串的首地址，不是字符串本身，字符串本身位于其他的内存区域，和字符数组**
 
@@ -6994,7 +7094,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\指针数组02.png)
+      ![](/图片/指针数组02.png)
 
 ## 二维数组指针
 
@@ -7110,7 +7210,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\二维数组指针.png)
+   ![](/图片/二维数组指针.png)
 
 4. 指针数组与二维数组指针的区别
 
@@ -7166,7 +7266,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\函数指针.png)
+   ![](/图片/函数指针.png)
 
    第 16 行代码对函数进行了调用。`pmax`是一个函数指针，在前面加`*`就表示对它指向的函数进行调用。注意`( )`的优先级高于`*`，
 
@@ -7377,7 +7477,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\结构体类型作用域.png)
+      ![](/图片/结构体类型作用域.png)
 
 ## 结构体数组
 
@@ -7525,7 +7625,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\结构体指针01.png)
+         ![](/图片/结构体指针01.png)
 
       2. 结构体数组指针的使用
 
@@ -7562,7 +7662,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\结构体指针02.png)
+         ![](/图片/结构体指针02.png)
 
 6. 结构体指针作为函数参数
 
@@ -7610,7 +7710,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\结构体指针03.png)
+   ![](/图片/结构体指针03.png)
 
 ## 结构体内存分析
 
@@ -7696,7 +7796,7 @@ int main()
 
    1. 在stu中嵌套存储Date结构体内容
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\结构体嵌套.jpg)
+      ![](/图片/结构体嵌套.jpg)
 
    2. 注意
 
@@ -7827,7 +7927,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\位域01.png)
+   ![](/图片/位域01.png)
 
    ​	对于 n 和 ch，第一次输出的数据是完整的，第二次输出的数据是残缺的。
 
@@ -7870,7 +7970,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\位域02.png)
+         ![](/图片/位域02.png)
 
          ​	m、n、p 的类型都是`unsigned int`，`sizeof` 的结果为 4 个字节（Byte），也即 32 个位（Bit）。m、n、p 的位宽之和为 `6+12+4 = 22`，小于 32，所以它们会挨着存储，中间没有缝隙。
 
@@ -7899,7 +7999,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\位域03.png)
+         ![](/图片/位域03.png)
 
          ​	在之前，在 GCC 下的运行结果为 4，三个成员挨着存储；在 VC/VS 下的运行结果为 12，三个成员按照各自的类型存储（与不指定位宽时的存储方式相同）。但是现在GCC也不在压缩存储了。
 
@@ -8017,19 +8117,19 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\共用体变量的内存占用01.png)
+   ![](/图片/共用体变量的内存占用01.png)
 
    ​	这段代码不但验证了共用体的长度，还说明共用体成员之间会相互影响，修改一个成员的值会影响其他成员。
 
    ​	要想理解上面的输出结果，弄清成员之间究竟是如何相互影响的，就得了解各个成员在内存中的分布。以上面的`data`为例，各个成员在内存中的分布如下：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\共用体变量的内存占用02.jpg)
+   ![](/图片/共用体变量的内存占用02.jpg)
 
    ​	成员 n、ch、m 在内存中“对齐”到一头，对 ch 赋值修改的是前一个字节，对 m 赋值修改的是前两个字节，对 n 赋值修改的是全部字节。也就是说，ch、m 会影响到 n 的一部分数据，而 n 会影响到 ch、m 的全部数据。
 
    ​	上图是在绝大多数 PC 机上的内存分布情况，如果是 51 单片机，情况就会有所不同：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\共用体变量的内存占用03.jpg)
+   ![](/图片/共用体变量的内存占用03.jpg)
 
 7. 应用场景
 
@@ -8043,7 +8143,7 @@ int main()
 
       请看下面的表格：
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\共用体变量的应用01.png)
+      ![](/图片/共用体变量的应用01.png)
 
       ​	f 和 m 分别表示女性和男性，s 表示学生，t 表示教师。可以看出，学生和教师所包含的数据是不同的。现在要求把这些信息放在同一个表格中，并设计程序输入人员信息然后输出。
 
@@ -8105,7 +8205,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\共用体变量的应用02.png)
+      ![](/图片/共用体变量的应用02.png)
 
 # 枚举
 
@@ -8198,7 +8298,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\枚举示例.png)
+   ![](/图片/枚举示例.png)
 
 6. 注意
 
@@ -8222,7 +8322,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\枚举变量大小.png)
+      ![](/图片/枚举变量大小.png)
 
 # 预处理命令
 
@@ -8371,11 +8471,11 @@ int main()
 
    本例中需要创建三个文件，分别是 main.c、my.c 和 my.h，如下图所示：
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\使用#include引入自定义头文件01.gif)
+   ![](/动画/使用#include引入自定义头文件01.gif)
 
    ​												    Visual Studio
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\使用#include引入自定义头文件02.png)
+   ![](/图片/使用#include引入自定义头文件02.png)
    
    ​											Visual Studio Code + Xmake
    
@@ -8490,7 +8590,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\宏01.png)
+   ![](/图片/宏01.png)
 
    ​	程序的开头首先定义了一个宏 M，它表示 `(n*n+3*n) `这个表达式。在 9 行代码中使用了宏`M`，预处理程序将它展开为下面的语句：
 
@@ -8645,7 +8745,7 @@ int main()
       }
       ```
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义01.png)
+      ![](/图片/带参数宏定义01.png)
 
    4. 注意
 
@@ -8691,7 +8791,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义02.png)
+         ![](/图片/带参数宏定义02.png)
 
          第 3 行为宏定义，形参为 y。第 10 行宏调用中实参为`a+1`，是一个表达式，在宏展开时，用 `a+1`代换`y`，再用`(y)*(y)`代换`SQ`，得到如下语句：
 
@@ -8722,7 +8822,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义03.png)
+         ![](/图片/带参数宏定义03.png)
          
          同样输入 9，但结果却是不一样的。问题在哪里呢？这是由于宏展开只是简单的符号替换的过程，没有任何其它的处理。宏替换后将得到以下语句：
          
@@ -8757,7 +8857,7 @@ int main()
          
          运行程序后，如果仍然输入 9，那么我们希望的结果为 2。但实际情况并非如此：
          
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义04.png)
+         ![](/图片/带参数宏定义04.png)
          
          为什么会得这样的结果呢？分析宏调用语句，在宏展开之后变为：
          
@@ -8818,7 +8918,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义与函数的区别01.png)
+         ![](/图片/带参数宏定义与函数的区别01.png)
 
       2. 用宏计算平方值。
 
@@ -8841,7 +8941,7 @@ int main()
 
          在Visual Studio Code的运行结果如下下（其它编译器的运行结果可能不同，这个`++`运算的顺序有关）
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义与函数的区别02.png)
+         ![](/图片/带参数宏定义与函数的区别02.png)
 
       3. 解释
 
@@ -8868,7 +8968,7 @@ int main()
          }
          ```
 
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\带参数宏定义与函数的区别03.png)
+         ![](/图片/带参数宏定义与函数的区别03.png)
 
 # 条件编译
 
@@ -9060,7 +9160,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\条件编译01.png)
+   ![](/图片/条件编译01.png)
 
    再如，两个宏都存在时编译代码A，否则编译代码B：
 
@@ -9084,7 +9184,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\条件编译02.png)
+   ![](/图片/条件编译02.png)
 
    \#ifdef 可以认为是 #if defined 的缩写。
 
@@ -9372,7 +9472,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\const01.png)
+   ![](/图片/const01.png)
 
 5. `const`和指针
 
@@ -9444,7 +9544,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\const02.png)
+   ![](/图片/const02.png)
 
    根据`strnchr()`的功能可以推断，函数内部要对字符串`str`进行遍历，不应该有修改的动作，用`const`加以限制，不但可以防止由于程序员误操作引起的字符串修改，还可以给用户一个提示，函数不会修改你提供的字符串，请你放心。
 
@@ -9489,7 +9589,7 @@ int main()
 
    ​	计算机中的内存是分区来管理的，程序和程序之间的内存是独立的，不能互相访问，比如QQ和浏览器分别所占的内存区域是不能相互访问的。而每个程序的内存也是分区管理的，一个应用程序所占的内存可以分为很多个区域，我们需要了解的主要有四个区域，通常叫内存四区，分别为栈区、堆区、静态区、代码区。
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\内存四区01.jpg)
+   ![](/图片/内存四区01.jpg)
 
 ## 栈内存（stack）
 
@@ -9525,9 +9625,9 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\栈区01.png)
+   ![](/图片/栈区01.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\栈区02.jpg)
+   ![](/图片/栈区02.jpg)
    
    **注：此处只是简单对栈内存进行介绍，具体内容需到学习数据结构时才会进行详尽的介绍。**
 
@@ -9559,13 +9659,13 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\堆区.png)
+   ![](/图片/堆区.png)
 
 ## malloc函数
 
 1. `malloc`函数
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\malloc函数01.png)
+   ![](/图片/malloc函数01.png)
 
 2. 示例
 
@@ -9669,7 +9769,7 @@ int main()
 
 2. `free`函数
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\free函数01.png)
+   ![](/图片/free函数01.png)
 
 3. 示例
 
@@ -9695,7 +9795,7 @@ int main()
 
 1. `calloc`函数
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\calloc函数01.png)
+   ![](/图片/calloc函数01.png)
 
 2. 示例
 
@@ -9741,7 +9841,7 @@ int main()
 
 1. `realloc`函数
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\realloc函数01.png)
+   ![](/图片/realloc函数01.png)
 
 2. 注意
 
@@ -9802,7 +9902,7 @@ int main()
 
 3. 链表定义与存储方式
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\链表01.jpg)
+   ![](/图片/链表01.jpg)
 
    链表的组成单位是「节点 node」对象。每个节点都包含两项数据：节点的“值”和指向下一节点的“引用”。
 
@@ -9814,7 +9914,7 @@ int main()
 
 1. 图示
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\静态链表01.jpg)
+   ![](/图片/静态链表01.jpg)
 
 2. 示例
 
@@ -9858,7 +9958,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\静态变量02.png)
+   ![](/图片/静态变量02.png)
 
 3. 解释
 
@@ -9885,7 +9985,7 @@ int main()
 
       头指针带了一个空链表节点, 空链表节点中的`next`指向`NULL`
 
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\空链表01.jpg)
+      ![](/图片/空链表01.jpg)
 
    2. 示例
 
@@ -9928,7 +10028,7 @@ int main()
 
    头指针带了一个非空节点, 最后一个节点中的`next`指向`NULL`
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\非空链表01.jpg)
+   ![](/图片/非空链表01.jpg)
 
 3. 动态链表头插法
 
@@ -10509,7 +10609,7 @@ int main()
 
 3. 解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\countingSort.gif)
+   ![](/动画/countingSort.gif)
 
 4. 示例
 
@@ -10601,7 +10701,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\计数排序01.png)
+   ![](/图片/计数排序01.png)
 
 5. 练习
 
@@ -10716,7 +10816,7 @@ int main()
 
 3. 解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\selectionSort.gif)
+   ![](/动画/selectionSort.gif)
 
 4. 示例
 
@@ -10778,7 +10878,7 @@ int main()
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\选择排序.png)
+   ![](/图片/选择排序.png)
 
 # 冒泡排序
 
@@ -10796,7 +10896,7 @@ int main()
 
 3. 解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\bubbleSort.gif)
+   ![](/动画/bubbleSort.gif)
 
 4. 示例
 
@@ -10862,7 +10962,7 @@ int main()
 
    乍一看，两种排序算法的代码貌似都一样，但是从原理上我们也知道，两者不一样，区别就在于选择排序是找最小值，而冒泡排序是比较相邻两数字的大小。
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\冒泡排序与选择排序的区别.png)
+   ![](/图片/冒泡排序与选择排序的区别.png)
 
 # 插入排序
 
@@ -10875,7 +10975,7 @@ int main()
 
 3. 解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\insertionSort.gif)
+   ![](/动画/insertionSort.gif)
 
 4. 示例
 
@@ -10965,7 +11065,7 @@ int main()
 
 5. 解释
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\Sorting_shellsort_anim.gif)
+   ![](/动画/Sorting_shellsort_anim.gif)
 
 6. 示例
 
