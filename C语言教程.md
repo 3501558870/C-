@@ -178,11 +178,11 @@
 
 ​                                                                                                        Clion
 
-![](\图片\vs.png)
+![](/图片/vs.png)
 
 ​                                                                                                       Visual Studio
 
-![](\图片\vscode.png)
+![](/图片/vscode.png)
 
 ​                                                                                                 Visual Studio Code
 
