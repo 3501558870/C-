@@ -174,7 +174,7 @@
 
        编写代码不是一件随便的事情，要想编写好代码，不仅得有好的技术，还得有一个趁手的编写代码的工具。Clion就是编写C/C++的一个很好用的IDE（集成开发环境），但是Clion是要收费的，这点让人望而却步。Visual Studio也很好用，但是太大了，很臃肿。而Visual Studio Code是一个免费且好用的文本编辑器，通过插件可以将其打造成为一个IDE。
 
-![](https://github.com/3501558870/C-/blob/master/%E5%9B%BE%E7%89%87/Clion.png)
+![](/图片/Clion.png)
 
 ​                                                                                                        Clion
 
