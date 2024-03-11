@@ -1227,9 +1227,9 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 3. 对函数：函数具有外部链接属性，在一个项目当中，其他源文件中的函数是可以在当前源文件中引用，只需声明一下即可。static关键字可以使函数的外部连接属性变为内部链接属性。
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字03.png)
+   ![](/图片/static关键字03.png)
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\static关键字04.png)
+   ![](/图片/static关键字04.png)
 
 ## auto和register关键字
 
@@ -1370,7 +1370,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    }
    ```
 
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\scanf函数01.png)
+   ![](/图片/scanf函数01.png)
 
 5. scanf函数运行原理
 
@@ -1382,7 +1382,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
    对于输入的%d、%f、%lf类型的数据，scanf函数会自动过滤掉数据前面的空格。
 
-   <img title="" src="file:///D:/Programmering%20Learning/Markdown文档/C语言教程/图片\scanf函数原理.png" alt="" data-align="center">
+   ![](/图片/scanf函数原理.png)
 
 6. 清空缓冲区
 
@@ -1437,12 +1437,12 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 2. 运算符的优先级和结合性
    
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\位运算符的优先级和结合性01.png)
-   ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\位运算符的优先级和结合性02.png)
+   ![](/图片/位运算符的优先级和结合性01.png)
+   ![](/图片/位运算符的优先级和结合性02.png)
 
 ## 算术运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\算术运算符.png)
+![](/图片/算术运算符.png)
 
 1. 如果参与运算的两个操作数皆为整数, 那么结果也为整数；如果参与运算的两个操作数其中一个是浮点数, 那么结果一定是浮点数。
    求余运算符, 本质上就是数学的商和余"中的余数；参与运算的两个操作数必须都是整数, 不能包含浮点数；被除数小于除数, 那么结果就是被除数；运算结果的正负性取决于被除数,跟除数无关, 被除数是正数结果就是正数,被除数是负数结果就是负数； 被除数为0, 结果为0。
@@ -1520,7 +1520,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 ## 赋值运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\赋值运算符.png)
+![](/图片/赋值运算符.png)
 
 1. 简单赋值运算符
    
@@ -1591,7 +1591,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
 
 ## 自增自减运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\自增自减运算符.png)
+![](/图片/自增自减运算符.png)
 
 1. 自增
    
@@ -1962,7 +1962,7 @@ int main()
 
 ## 逻辑运算符
 
-![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\逻辑运算符.png)
+![](/图片/逻辑运算符.png)
 
 1. 逻辑非
    
@@ -2200,7 +2200,7 @@ int main()
       
       3. char 和 short 参与运算时，必须先转换成 int 类型。
          
-         ![](D:\Programmering%20Learning\Markdown文档\C语言教程\图片\数据类型转换.png)
+         ![](/图片/数据类型转换.png)
          
          注：unsigned 也即 unsigned int，此时可以省略 int，只写 unsigned。
    
@@ -2600,7 +2600,7 @@ int main()
             }
             ```
    
-            ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\rand().png)
+            ![](/图片/rand().png)
    
       2. 随机数的本质
    
@@ -2608,7 +2608,7 @@ int main()
    
          实际上，`rand()`函数产生的随机数是伪随机数，是根据一个数值按照某个公式推算出来的，这个数值我们称之为“种子”。种子和随机数之间的关系是一种正态分布，如下图所示：
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\动画\随机数的本质.gif)
+         ![](/动画/随机数的本质.gif)
    
          种子在每次启动计算机时是随机的，但是一旦计算机启动以后它就不再变化了；也就是说，每次启动计算机以后，种子就是定值了，所以根据公式推算出来的结果（也就是生成的随机数）就是固定的。
    
@@ -2706,7 +2706,7 @@ int main()
          }
          ```
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数01.png)
+         ![](/图片/连续生成随机数01.png)
    
          ​	运行结果非常奇怪，每次循环我们都重新播种了呀，为什么生成的随机数都一样呢？
    
@@ -2735,7 +2735,7 @@ int main()
          }
          ```
    
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数02.png)
+         ![](/图片/连续生成随机数02.png)
          
          ```c
          #include <stdio.h>
@@ -2757,7 +2757,7 @@ int main()
          }
          ```
          
-         ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\连续生成随机数03.png)
+         ![](/图片/连续生成随机数03.png)
    
 2. 选择结构switch
    
