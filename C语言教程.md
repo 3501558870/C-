@@ -178,11 +178,11 @@
 
 ​                                                                                                        Clion
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vs.png)
+![](\图片\vs.png)
 
 ​                                                                                                       Visual Studio
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode.png)
+![](\图片\vscode.png)
 
 ​                                                                                                 Visual Studio Code
 
@@ -190,15 +190,15 @@
    
    官网：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/))
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode官网.png)
+   ![](\图片\vscode官网.png)
    
    选择对应的系统版本进行下载即可。下载完成以后默认设置安装即可。**切记，不要将软件安装在C盘，一定要改默认路径。**
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装01.png)
+   ![](\图片\vscode安装01.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装02.png)
+   ![](\图片\vscode安装02.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\vscode安装03.png)
+   ![](\图片\vscode安装03.png)
 
 2. 下载mingw64
    
@@ -212,17 +212,17 @@
    
    【windows10以下版本系统（不含windows10）】
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境01.png)
+   ![](\图片\配置环境01.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境02.png)
+   ![](\图片\配置环境02.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境03.png)
+   ![](\图片\配置环境03.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境04.png)
+   ![](\图片\配置环境04.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境05.png)
+   ![](\图片\配置环境05.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境06.png)
+   ![](\图片\配置环境06.png)
    
       最后编辑的时候在最后面加上一个分号，然后将mingw64中的bin目录的路径（例如：F:\mingw64\bin）粘贴进去。
    
@@ -230,15 +230,15 @@
    
     右键我的电脑，点击属性
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境07.png)
+   ![](\图片\配置环境07.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境08.png)
+   ![](\图片\配置环境08.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境09.png)
+   ![](\图片\配置环境09.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境10.png)
+   ![](\图片\配置环境10.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境11.png)
+   ![](\图片\配置环境11.png)
    
    将mingw64的路径（例如：F:\mingw64\bin）粘贴进去，最后确定保存就行。
 
@@ -246,19 +246,19 @@
    
       打开vscode，Ctrl+Shift+X打开插件市场，在搜索框里输入Chinese，选择第一个安装，安装过后右下角会有重启软件提示，点击restart重启即可，重启过后界面即为中文界面。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境12.png)
+   ![](\图片\配置环境12.png)
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境13.png)
+   ![](\图片\配置环境13.png)
    
       打开插件市场，安装C/C++插件。
    
       在C盘之外创建一个英文名的文件夹，路径之中不可含有英文，文件夹名称不可含有中文。然后在创建好的文件夹里面再创建一个.vscode文件夹（注意不要把点忘记了）。然后打开vscode，点击左上角的文件，打开文件夹，打开事先创建好的文件夹。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境14.png)
+   ![](\图片\配置环境14.png)
    
    点击展开.vscode文件夹，点击上方的加号创建c_cppproperties.json、launch.json、settings.json、tasks.json四个文件。
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\配置环境15.png)
+   ![](\图片\配置环境15.png)
 
 5. 配置文件（C）
    
@@ -475,17 +475,17 @@
 
 ## 如何运行代码
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\运行代码01.png)
+![](\图片\运行代码01.png)
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\运行代码02.png)
+![](\图片\运行代码02.png)
 
 ## 断点调试
 
 有些时候，我们写的代码出现了问题，我们可能就会用到断点调试。断点调试可以监视变量的值以及数组中的值的变化。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\断点调试01.png)
+![](\图片\断点调试01.png)
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\断点调试02.png)
+![](\图片\断点调试02.png)
 
 # C语言程序构成
 
@@ -497,7 +497,7 @@ C语言文件的后缀名为.c
 
 注：C语言的文件路径、文件名中不可含有中文，否则会编译错误。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\1-1 C语言结构02.png)
+![](\图片\1-1 C语言结构02.png)
 
 **注**：其中system（“pause”）可以省略，这段指令包含在库文件stdlib.h中，但是上面的vscode配置为外置终端显示运行结果，如果不添加这两行代码，就会出现运行结果一闪而过的情况，这两段代码的作用就是暂停程序的执行，使得你能够看到运行结果。
 
@@ -581,11 +581,11 @@ C语言文件的后缀名为.c
 
 4. C语言中的32个关键字
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\关键字.png)
+   ![](\图片\关键字.png)
 
 5. 关键字的分类
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\关键字分类.png)
+   ![](\图片\关键字分类.png)
 
 # 标识符
 
@@ -611,7 +611,7 @@ C语言文件的后缀名为.c
 
 C语言4大数据类型：基本类型、构造类型、指针类型、空类型。
 
-![](D:\Programmering Learning\Markdown文档\C语言教程\图片\C语言数据类型.png)
+![](\图片\C语言数据类型.png)
 
 ```c
 1 B(Byte字节) = 8 bit(位)
@@ -684,7 +684,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    printf("a = %类型", a);
    ```
    
-   ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\类型字符串.png)
+   ![](\图片\类型字符串.png)
 
 4. 示例
    
@@ -756,7 +756,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    2. 标志：`printf("a = %[标志][宽度]类型", a);`
    
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\宽度标志.png)
+      ![](\图片\宽度标志.png)
    
       ```C
       #include <stdio.h>
@@ -862,7 +862,7 @@ C语言4大数据类型：基本类型、构造类型、指针类型、空类型
    
    1. 格式：`printf("a = %[长度]类型", a);`
       
-      ![](D:\Programmering Learning\Markdown文档\C语言教程\图片\长度.png)
+      ![](\图片\长度.png)
    
    2. 示例
       
